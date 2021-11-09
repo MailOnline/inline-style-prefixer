@@ -4962,11 +4962,12 @@ rollup-plugin-node-resolve@1.5.0:
     builtin-modules "^1.1.0"
     resolve "^1.1.6"
 
-rollup-plugin-uglify@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-uglify/-/rollup-plugin-uglify-0.3.1.tgz#0d977f90a4ddbe2d5301403271a538783233486c"
+rollup-plugin-uglify@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-uglify/-/rollup-plugin-uglify-2.0.0.tgz#20b2f49a5bd641fdf57c16182755fcdf5309d6a0"
+  integrity sha1-ILL0mlvWQf31fBYYJ1X831MJ1qA=
   dependencies:
-    uglify-js "^2.6.1"
+    uglify-js "^3.0.9"
 
 rollup-pluginutils@^1.1.0, rollup-pluginutils@^1.2.0:
   version "1.5.2"
@@ -5401,7 +5402,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uglify-js@^2.4.1, uglify-js@^2.6, uglify-js@^2.6.1:
+uglify-js@^2.4.1, uglify-js@^2.6:
   version "2.8.28"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.28.tgz#e335032df9bb20dcb918f164589d5af47f38834a"
   dependencies:
@@ -5409,6 +5410,11 @@ uglify-js@^2.4.1, uglify-js@^2.6, uglify-js@^2.6.1:
     yargs "~3.10.0"
   optionalDependencies:
     uglify-to-browserify "~1.0.0"
+
+uglify-js@^3.0.9:
+  version "3.14.3"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.14.3.tgz#c0f25dfea1e8e5323eccf59610be08b6043c15cf"
+  integrity sha512-mic3aOdiq01DuSVx0TseaEzMIVqebMZ0Z3vaeDhFEh9bsc24hV1TFvN74reA2vs08D0ZWfNjAcJ3UbVLaBss+g==
 
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
