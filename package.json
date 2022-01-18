@@ -57,7 +57,7 @@
     "chai": "^3.2.0",
     "codeclimate-test-reporter": "^0.1.1",
     "cross-env": "^1.0.8",
-    "eslint": "^3.14.0",
+    "eslint": "^4.0.0",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-import": "^2.2.0",
